@@ -1,3 +1,4 @@
+print('Conversor de Metros e Centímetros para Pés e Polegadas:')
 # Pergunta a altura do usuário em metros
 altura = float(input('Qual é a sua altura em metros? '))
 
@@ -10,7 +11,7 @@ pes = int(altura_pes)
 polegadas = (altura_pes - pes) * 12
 
 # Mostra o resultado
-print(f"Sua altura é: {pes} pés e {polegadas:.2f} polegadas")
+print("Sua altura é: {} pés e {:.1f} polegadas".format(pes, polegadas))
 
 
 
